@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+.main{width: 1200px;
+    margin: 0 auto;
+}
+
+.firstline:after,.secondline:after,
+.thirdline:after,.fourthline:after,
+.thirdleft:after,.leftline:after,.thirdtop2:after{content:""; 
+                                display: block; 
+                                clear:both;}
+
+
+.first,.line2left,.line2right,
+.thirdleft,.thirdright,.thirdtop1,
+.left4,.right4,.leftlinetop{float:left;
+                                       outline: 1px solid lightcoral;
+}
+
+.line2left,.left4{width: 800px;
+}
+
+.first,.line2right,.right4,
+.leftlinetop{width: 400px;
+}
+
+.thirdleft,.thirdright{width: 600px; 
+}
+
+.thirdtop1{width: 300px;
+}
+.main,.secondleft,
+.secondright,.leftlineright{outline: 1px solid lightcoral;
+}
+.firstline{background: lightgray;
+}
+.secondline{background: lightgoldenrodyellow;
+}
+.thirdline{background: lightskyblue;
+}
+.fourthline{background: lightpink;
+}

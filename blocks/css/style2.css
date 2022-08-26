@@ -1,0 +1,72 @@
+@import url(reset.css);
+.main {width: 1200px;
+       margin: 0 auto;
+       }
+.first{font-size: 0;}
+.one {width: 400px; 
+      display: inline-block;
+      background-color: azure;
+      font-size: 16px;
+}
+.second{font-size: 0;}
+
+.two {width: 800px;
+      background-color:blanchedalmond;
+      font-size: 0px;
+}
+.twotwo {width: 400px;
+          background-color:lightgrey;
+          font-size: 0px;
+}
+.empty {font-size: 16px;
+}
+.two,.twotwo {display: inline-block;
+}
+.third{font-size: 0;}
+
+.three3 {width: 600px;
+         background-color:lightcyan;
+         font-size: 16px;
+}
+.three333 {width: 600px;
+            background-color:lightcyan;
+            font-size: 0px;
+}
+.three33 {display: inline-block; 
+          width: 300px;
+          background-color:lightpink;
+          font-size: 16px;
+}
+.three{display: inline-block; 
+       width: 600px;
+       background-color:lightblue;
+       font-size: 16px;
+       margin: 0 auto;
+}
+.forth{font-size: 0;
+}
+
+.four{background-color:lightgreen;
+      font-size: 16px;
+}
+.four44{width: 800px;
+        background-color: lightgreen;
+}
+.fourfour{width: 400px;
+          background-color:azure;
+          font-size: 16px;
+}
+.four,.fourfour{display: inline-block;
+                
+}
+.four4{display: inline-block;
+       width: 400px;
+       background-color:lightskyblue;
+       font-size: 16px;
+    }
+.four1{ background-color:lightskyblue;
+        font-size: 0px;
+    }
+.four444{width: 400px;
+         background-color:lightpink;
+      }

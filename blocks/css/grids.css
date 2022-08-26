@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+.main{width: 1200px;
+    margin: 0 auto;
+}
+.firstline{grid-template-columns: repeat(3,1fr);
+           display: grid;
+}
+.secondline,.fourthline{display: grid; 
+                        grid-template-columns: 2fr 1fr;
+}
+.line2left,.left4{display: grid;
+                  grid-template-rows: repeat(2, 1fr);
+}
+.line2right{display: grid; 
+            grid-template-rows: repeat(3, 1fr);
+}
+.thirdline{display: grid; 
+           grid-template-columns: repeat(2, 1fr);
+}
+.thirdleft,.leftlinetop{display: grid; 
+                        grid-template-rows: repeat(2, 1fr);
+}
+.thirdtop2,.four{display: grid; 
+                 grid-template-columns: repeat(2, 1fr);
+}
+
+
+.main,.secondleft,
+.first,.secondright,.leftlineright,
+.leftline,.thirdleft,.thirdright,
+.thirdtop1{outline: 1px solid lightcoral;
+}
+.firstline{background: lightgray;
+}
+.secondline{background: lightgoldenrodyellow;
+}
+.thirdline{background: lightskyblue;
+}
+.fourthline{background: lightpink;
+}

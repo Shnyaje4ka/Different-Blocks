@@ -1,0 +1,70 @@
+@import url(reset.css);
+
+.main{width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+     "A1 A1 A1 A1    A2 A2 A2 A2   A3 A3 A3 A3"
+     "B1 B1 B1 B1    B1 B1 B1 B1   B3 B3 B3 B3"
+     "B1 B1 B1 B1    B1 B1 B1 B1   B3 B3 B3 B3" 
+     "B1 B1 B1 B1    B1 B1 B1 B1   B4 B4 B4 B4"
+     
+     "B2 B2 B2 B2    B2 B2 B2 B2   B4 B4 B4 B4"
+     "B2 B2 B2 B2    B2 B2 B2 B2   B5 B5 B5 B5"
+     "B2 B2 B2 B2    B2 B2 B2 B2   B5 B5 B5 B5"
+     
+     "C1 C1 C1 C1    C1 C1 C4 C4   C4 C4 C4 C4"
+     "C2 C2 C2 C3    C3 C3 C4 C4   C4 C4 C4 C4"
+
+     "D1 D1 D1 D1    D1 D1 D1 D1   D5 D5 D5 D5" 
+     "D2 D2 D2 D2    D3 D3 D3 D3   D5 D5 D5 D5"
+     "D2 D2 D2 D2    D4 D4 D4 D4   D5 D5 D5 D5";
+}
+.first1{grid-area: A1;}
+.first2{grid-area: A2;}
+.first3{grid-area: A3;}
+
+.secondleft1{grid-area: B1;}
+.secondleft2{grid-area: B2;}
+.secondright1{grid-area: B3;}
+.secondright2{grid-area: B4;}
+.secondright3{grid-area: B5;}
+
+.thirdtop{grid-area: C1;}
+.thirdtop1{grid-area: C2;}
+.thirdtop11{grid-area: C3;}
+.thirdright{grid-area: C4;}
+
+.leftline{grid-area: D1;}
+.leftlinetop1{grid-area: D2;}
+.leftlineright1{grid-area: D3;}
+.leftlineright2{grid-area: D4;}
+.right4{grid-area: D5;}
+
+
+
+
+
+.first1,.first2,.first3,
+.secondleft1,.secondleft2,
+.secondright1,.secondright2,
+.secondright3,.thirdtop,
+.thirdtop1,.thirdtop11,
+.thirdright,.leftline,
+.leftlinetop1,.leftlineright1,
+.leftlineright2,.right4{outline: 1px solid lightcoral;
+}
+.first1,.first2,.first3{background: lightgray;
+}
+.secondleft1,.secondleft2,
+.secondright1,.secondright2,
+.secondright3{background: lightgoldenrodyellow;
+}
+.thirdtop,.thirdtop1,
+.thirdtop11,.thirdright{background: lightskyblue;
+}
+.leftline,.leftlinetop1,
+.leftlineright1,
+.leftlineright2,.right4{background: lightpink;
+}

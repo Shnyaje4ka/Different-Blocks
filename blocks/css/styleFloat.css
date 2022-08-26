@@ -1,0 +1,37 @@
+@import url(reset.css);
+.left{clear: left; 
+ 
+}
+.main{width: 1200px;
+    margin: 0 auto;
+}
+
+.first,.line2left,.line2right,
+.left4,.right4,.thirdtop1,
+.leftlinetop{float:left;
+               outline: 1px solid lightcoral;
+}
+
+.line2left,.left4{width: 800px;
+}
+
+.first,.line2right,.right4,
+.leftlinetop,.leftlinetop{width: 400px;
+}
+
+.thirdleft,.thirdright{width: 600px; float:left;
+}
+
+.thirdtop1{width: 300px;
+}
+.main,.secondleft,
+.secondright,.leftlineright{outline: 1px solid lightcoral;
+}
+.firstline{background: lightgray;
+}
+.secondline{background: lightgoldenrodyellow;
+}
+.thirdline{background: lightskyblue;
+}
+.fourthline{background: lightpink;
+}

@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+.main{width: 1200px;
+    margin: 0 auto;
+}
+.firstline,.secondline,.thirdline,
+.thirdtop2,.fourthline,.four{justify-content: flex-start;
+                             display: flex;
+}
+.first,.line2right,.right4,.leftlinetop{flex:0 1 400px;
+}
+           
+.line2left,.left4{flex:0 1 800px;
+}
+
+.thirdleft,.thirdright{flex:0 1 600px;
+}
+.thirdtop1{flex:0 1 300px;
+}
+
+.main,.secondleft,
+.first,.secondright,.leftlineright,
+.leftline,.thirdleft,.thirdright,
+.thirdtop1{outline: 1px solid lightcoral;
+}
+.firstline{background: lightgray;
+}
+.secondline{background: lightgoldenrodyellow;
+}
+.thirdline{background: lightskyblue;
+}
+.fourthline{background: lightpink;
+}

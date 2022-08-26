@@ -1,0 +1,40 @@
+@import url(reset.css);
+.main {width: 1200px;
+       margin: 0 auto;
+}
+.one {width: 400px; 
+      display: table-cell;
+      background-color: azure;
+}
+.two {background-color:blanchedalmond;
+}
+.twotwo {width: 400px;
+    background-color:lightgrey;
+}
+.two,.twotwo {display: table-cell;
+}
+
+.three3 {background-color:lightcyan;
+}
+.three33 {display: table-cell; 
+          width: 300px;
+          background-color:lightpink;
+}
+.three{display: table-cell; 
+       width: 600px;
+       background-color:lightblue;
+}
+.four{background-color:lightgreen;
+}
+.fourfour{width: 400px;
+    background-color:azure;
+}
+.four,.fourfour{display: table-cell;
+}
+.four4{display: table-cell;
+       width: 400px;
+       background-color:lightskyblue;
+    }
+.four444{width: 400px;
+    background-color:lightpink;
+}
